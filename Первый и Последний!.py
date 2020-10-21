@@ -1,7 +1,7 @@
 def firstandlast(a,b,c,d,e,f,g,h,i,j,k):
     list1 = [a,b,c,d,e,f,g,h,i,j,k]
-    print("First item in the list was: " + list1.__getitem__(0))
-    print("Last item in the list was: " + list1.__getitem__(10))
+    print("First item in the list was: " + list1[0])
+    print("Last item in the list was: " + list1[-1])
 
 
 a1 = input("Enter A: ")
